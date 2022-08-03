@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@
     width: 100%;
     height: 130px;
     display: flex;
+    box-shadow: 0px 29px 39px rgba(0, 0, 0, 0.01);
     .logo{
         width: 20%;
         margin: 33px 0 33px 100px;
@@ -27,13 +29,31 @@
     .menu{
      width: 185px;
      height: 60px;
-    //  margin: 35px 0 35px 0;
      display: flex;
      text-align: center;
      justify-content: center;
+     gap: 17px;
      align-items: center;
      border: 1px solid #E1E1E1;
      border-radius: 14px 0px 0px 14px;
+    }
+    .search-bar{
+        width: 390px;
+        height: 60px;
+        display: inherit;
+        border: 1px solid #E1E1E1;
+        border-radius: 0px 14px 14px 0px;
+        input{
+            outline: none;
+            width: 100%;
+            font-family: 'Open Sans';
+            font-size: 16px;
+            line-height: 22px;
+            color: #AAAAAA;
+            border: 1px solid #E1E1E1;
+            // border-radius: 0px 14px 14px 0px;
+            padding: 18px;
+        }
     }
     img:first-child{
         width: 24px;
@@ -42,6 +62,12 @@
     img{
         width:16px ;
         height: 16px;
+    }
+    .search-stick{
+        width: 72px;
+        height: 60px;
+        padding: 18px 29px 18px 28px;
+        color:blue;
     }
 }
 .access{
@@ -80,4 +106,285 @@
             margin-right: 10px;
         }
     }
+}
+.mainhero{
+    width: 1419px;
+    height: 662px;
+    display: flex;
+    margin-left: 100px;
+    .mainbanner{
+        width: 900px;
+        height: 662px;
+        border-radius: 24px;
+        background-image: url(./mainbanner.png);
+        background-size: cover;
+        .heading{
+            margin-top: 92px;
+            margin-left: 90px;
+            width: 500px;
+            height:400px;
+            gap: 20px;
+            p:first-child{
+                font-family: 'Cairo';
+                font-size: 18px;
+                line-height: 34px;
+                color: #6C5DD3;
+            }
+            h1{
+              font-family: 'Cairo';
+              font-size: 50px;
+              line-height: 65px;
+              color: #11142D;
+              span{
+                font-size: 30px;
+                line-height: 65px;
+              }
+            }
+            p{
+                font-family: 'Open Sans';
+                font-size: 14px;
+                line-height: 22px;
+                color: #11142D;
+            }
+            button{
+                margin-top: 40px;
+                width: 198px;
+                height: 60px;
+                padding: 13px 0 13px 17px;
+            }
+            .deal{
+                font-family: 'Cairo';
+                font-size: 18px;
+                line-height: 34px;
+                color: #ffffff;
+                background: #6C5DD3;
+                box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+                border-radius: 14px;
+                border: none;
+                gap: 20px;
+                span{
+                    padding-left:30px ;
+                }
+            }
+            .promos{
+                font-family: 'Cairo';
+                font-size: 18px;
+                line-height: 34px;
+                color: #11142D;
+                border: 1px solid #AAAAAA;
+                border-radius: 14px;
+                margin-left: 20px;
+            }
+            .sliders{
+                display: flex;
+                margin-top:65px ;
+                height: 12px;
+                padding: 10px;
+                gap:10px;
+                .slider{
+                    width: 12px;
+                    height: 12px;
+                    background: #D7D0FB;
+                    border-radius: 50%;
+                   :hover{
+                        background: #6C5DD3;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+ .secondbanner{
+    width: 384px;
+    height: 662px;
+    margin-right: 100px;
+    margin-left: 24px;
+    background: #9C9C9C;
+    border-radius: 24px;
+    h1{
+        margin: 40px 80px 0 80px;
+        font-family: 'Cairo';
+        font-size: 48px;
+        line-height: 90px;
+        color: #ffffff;
+    }
+    p{
+        font-family: 'Open Sans';
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .image{
+        width: 206px;
+        height: 291px;
+        background: #C4C4C4;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0px 25px 33px rgba(255, 255, 255, 0.25);
+        border-radius: 14px;
+        margin: auto;
+    }
+    .circle{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        align-items: center;
+        color: #FFFFFF;
+        background-color:#c4c4c4;
+    }
+    .circle-1{
+        margin-top: 120px;
+        margin-left: 40px;
+    .fa-chevron-left{
+        position: absolute;
+    }
+}
+     .circle-2{
+        margin-top: -169px;
+        margin-left: 326px;
+    .fa-chevron-right{
+        position: absolute;
+    }
+}
+    h4{
+        font-size: 20px;
+        line-height: 37px;
+        color: #FFFFFF;
+        font-family: 'Cairo';
+        margin-top: 20px;
+        margin-left: 125px;
+    }
+    h6{
+        font-family: 'Open Sans';
+        font-size: 12px;
+        line-height: 16px;
+        color: rgba(255,255,255,0.6);
+        margin-top: 10px;
+        margin-left: 102px;
+    }
+    button{
+        width: 206px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 89px;
+        background-color: #FFFFFF;
+        border-radius: 14px;
+        border: none;
+        span:first-child{
+            font-size: 18px;
+            line-height: 34px;
+            color: #AAAAAA;
+            text-decoration: line-through;
+            padding-right: 10px;
+        }
+        span{
+            font-size: 18px;
+            line-height: 34px;
+            color: #11142D;
+        }
+    }
+ }
+}
+
+.features{
+    width: 1419px;
+    display: flex;
+    margin: 60px 90px 0 100px;
+    .item{
+        width: 340px;
+    }
+    h2{
+        margin: 33px 0 10px 92px;
+        font-family: 'Cairo';
+        font-size: 20px;
+        line-height: 24px;
+        color: #11142D;
+    }
+    p{
+        margin: 0 0px 33px 92px;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        color: #AAAAAA;
+        line-height: 19px;
+        position: relative;
+    }
+    img{
+        margin: 39px 0 39px 20px;
+        position: absolute;
+    }
+}
+.featuredbanner{
+   margin: 90px 100px 0 110px;
+   height: 443px;
+   display: flex;
+   gap: 40px;
+   .banner{
+    width: 640px;
+    height: 443px;
+    border-radius: 14px;
+    background: #ece3e1;
+    .img{
+        width: 634px;
+        margin-right: 30px;
+        height: 443px;
+        position: absolute;
+    }
+    .image{
+        width: 500px;
+        height: 180px;
+        display: flex;
+        gap: 30px;
+        margin: 0 60px 40px 60px;
+        position: absolute;
+        div{
+            background-color: #9C9C9C;
+            width: 110px ;
+            height: 180px;
+            background: #C4C4C4;
+            border: 4px solid #FFFFFF;
+            border-radius: 14px;
+        }
+       }
+       .iconnext{
+        position: absolute;
+        margin:64px 50px 0 540px ;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+       }
+   }
+   h2{
+    font-family: 'Cairo';
+    font-size: 36px;
+    color: #11142D;
+    line-height: 57px;
+    margin: 38px 0 10px 90px;
+   }
+   p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    color: #11142D;
+    margin: 0 120px 49px 90px;
+   }
+   .banner-2{
+    background-color: #e6f1fc !important; 
+    p{
+        position: absolute;
+    }
+    .image{
+        margin-top: 93px;
+    }
+    .iconnext{
+        margin: 159px 50px 0 540px;
+    }
+   }
 }
