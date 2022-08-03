@@ -367,6 +367,7 @@
 }
 
 .featuredbanner .banner {
+  margin-right: -18px;
   width: 640px;
   height: 443px;
   border-radius: 14px;
