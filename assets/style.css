@@ -375,7 +375,7 @@
 }
 
 .featuredbanner .banner .img {
-  width: 634px;
+  width: 640px;
   margin-right: 30px;
   height: 443px;
   position: absolute;
@@ -442,4 +442,163 @@
 
 .featuredbanner .banner-2 .iconnext {
   margin: 159px 50px 0 540px;
+}
+
+.specialoffers {
+  margin: 100px 100px 0  110px;
+  height: 1000px;
+}
+
+.specialoffers .title {
+  margin: 30px 400px;
+  display: block;
+  text-align: center;
+}
+
+.specialoffers .title h1 {
+  font-family: 'Cairo';
+  font-size: 50px;
+  line-height: 94px;
+  color: #11142D;
+}
+
+.specialoffers .title p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 22px;
+  color: #11142D;
+}
+
+.specialoffers .cards {
+  margin-right: 100px;
+  display: flex;
+  width: 1300px;
+  justify-content: space-between;
+}
+
+.specialoffers .cards .card {
+  width: 400px;
+  height: 600px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+  border-radius: 14px;
+}
+
+.specialoffers .cards .card .image {
+  width: 400px;
+  height: 244px;
+  margin: 0;
+  background: #C4C4C4;
+  border-radius: 14px;
+}
+
+.specialoffers .cards .card h1 {
+  font-family: 'Cairo';
+  font-size: 24px;
+  line-height: 45px;
+  color: #11142D;
+  margin: 30px 0 10px 28px;
+}
+
+.specialoffers .cards .card .upperinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  margin-left: 28px;
+}
+
+.specialoffers .cards .card .upperinfo div {
+  width: 80px;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 16px;
+  color: #6C5DD3;
+  text-align: center;
+  background: #F0EEFF;
+  border-radius: 14px;
+}
+
+.specialoffers .cards .card p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 18px 30px 30px 28px;
+}
+
+.specialoffers .cards .card h4 {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 22px;
+  color: #11142D;
+  margin-left: 28px;
+}
+
+.specialoffers .cards .card button {
+  width: 200px;
+  margin: 30px 60px 30px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6C5DD3;
+  border-radius: 14px;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 34px;
+  font-family: 'Cairo';
+  border: none;
+  height: 60px;
+  gap: 20px;
+}
+
+.specialoffers .cards .card .price {
+  margin: -72px 258px;
+  width: 130px;
+  height: 30px;
+}
+
+.specialoffers .cards .card .price .endirim {
+  font-family: 'Cairo';
+  font-size: 28px;
+  line-height: 24px;
+  color: #11142D;
+  font-weight: bold;
+}
+
+.specialoffers .cards .card .price .endirimsiz {
+  font-family: 'Cairo';
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #AAAAAA;
+  line-height: 24px;
+  margin-left: 10px;
+}
+
+.specialoffers .navigation {
+  width: 142px;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px auto;
+  align-items: center;
+}
+
+.specialoffers .navigation .nav {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border: 1px solid #F0EEFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6C5DD3;
+}
+
+.specialoffers .navigation .nav:hover {
+  cursor: pointer;
+}
+
+.specialoffers .navigation .fa-solid:active {
+  background-color: #F0EEFF;
 }
