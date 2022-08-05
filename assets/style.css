@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+main {
+  width: 1519px;
+}
+
 .header {
   width: 100%;
   height: 130px;
@@ -578,8 +582,8 @@
   width: 142px;
   height: 57px;
   display: flex;
-  justify-content: space-between;
   margin: 70px auto;
+  gap: 24px;
   align-items: center;
 }
 
@@ -601,4 +605,461 @@
 
 .specialoffers .navigation .fa-solid:active {
   background-color: #F0EEFF;
+}
+
+.flashsale {
+  width: 1305px;
+  margin: 0 100px 100px 100px;
+}
+
+.flashsale .title {
+  width: 540px;
+  height: 270px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.flashsale .title h2 {
+  font-family: 'Cairo';
+  font-size: 50px;
+  line-height: 94px;
+  color: #11142D;
+  margin: auto;
+  width: 300px;
+}
+
+.flashsale .title p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 22px;
+  color: #11142D;
+  width: 100%;
+  height: 60px;
+}
+
+.flashsale .title p span {
+  margin-left: 28px;
+}
+
+.flashsale .title .timer {
+  width: 540px;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  background: #FFFFFF;
+  border: 1px solid #F0EEFF;
+  border-radius: 14px;
+}
+
+.flashsale .title .timer .block {
+  width: 50px;
+  height: 120px;
+}
+
+.flashsale .title .timer .block b {
+  font-size: 50px;
+  font-family: 'Cairo';
+  line-height: 94px;
+  color: #FF754C;
+  margin-bottom: 10px;
+}
+
+.flashsale .title .timer .block p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #11142D;
+  height: 28px;
+  padding-left: 15px;
+  position: absolute;
+}
+
+.flashsale .cards {
+  width: 1369px;
+  margin: 50px 100px 100px 0px;
+  height: 450px;
+  display: flex;
+  gap: 60px;
+}
+
+.flashsale .cards .card {
+  width: 210px;
+  height: 450px;
+}
+
+.flashsale .cards .card .image {
+  width: 210px;
+  height: 320px;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.flashsale .cards .card h4 {
+  font-family: 'Cairo';
+  font-size: 20px;
+  line-height: 37px;
+  color: #11142D;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.flashsale .cards .card h5 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 19px;
+  color: #6C5DD3;
+  margin: 1px auto;
+  text-align: center;
+}
+
+.flashsale .cards .card .price {
+  width: 170px;
+  margin: 10px 35px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flashsale .cards .card .price .endirimli {
+  width: 90px;
+  height: 52px;
+  font-family: 'Cairo';
+  font-size: 28px;
+  line-height: 52px;
+  color: #6C5DD3;
+}
+
+.flashsale .cards .card .price .endirimsiz {
+  width: 61px;
+  height: 37px;
+  font-family: 'Cairo';
+  font-size: 20px;
+  color: #AAAAAA;
+  text-decoration: line-through;
+}
+
+.bookonsale {
+  width: 1519px;
+  margin: 0 100px 100px 0px;
+}
+
+.bookonsale .title {
+  margin: 30px 100px 44px 90px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 1329px;
+  height: 90px;
+}
+
+.bookonsale .title h2 {
+  font-family: 'Cairo';
+  font-size: 50px;
+  line-height: 90px;
+  color: #11142D;
+}
+
+.bookonsale .title .dotslider {
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+}
+
+.bookonsale .title .dotslider .icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #F0EEFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookonsale .title .dotslider .circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #F0EEFF;
+}
+
+.bookonsale .books {
+  width: 1329px;
+  height: 450px;
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+  justify-content: space-between;
+}
+
+.bookonsale .books .book {
+  width: 210px;
+  height: 450px;
+  display: block;
+}
+
+.bookonsale .books .book .endirim {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  font-size: 26px;
+  font-family: 'Poppins';
+  color: #FFFFFF;
+  padding: 9px;
+  background: #FF754C;
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 24px;
+  margin-left: 0;
+}
+
+.bookonsale .books .book .image {
+  width: 210px;
+  height: 320px;
+  margin: 0;
+  background: #C4C4C4;
+  border-radius: 14px;
+}
+
+.bookonsale .books .book h4 {
+  margin-top: 18px;
+  font-family: 'Cairo';
+  font-size: 20px;
+  line-height: 37px;
+  color: #11142D;
+}
+
+.bookonsale .books .book p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 19px;
+  color: #6C5DD3;
+  margin-bottom: 18px;
+}
+
+.bookonsale .books .book .detail {
+  width: 210px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.bookonsale .books .book .detail .rate {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+  color: #FF754C;
+}
+
+.bookonsale .books .book .detail .price {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  gap: 5px;
+}
+
+.bookonsale .books .book .detail .price .endirimli {
+  color: #11142D;
+  font-weight: bold;
+  font-family: 'Cairo';
+  font-size: 20px;
+  line-height: 37px;
+}
+
+.bookonsale .books .book .detail .price .endirimsiz {
+  font-family: 'Cairo';
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: line-through;
+  margin: auto;
+  color: #AAAAAA;
+}
+
+.featuredbooks {
+  width: 1519px;
+  margin-top: 118px;
+  height: 800px;
+  background: #f2f0fe;
+}
+
+.featuredbooks .title {
+  width: 400px;
+  height: 140px;
+  margin: 0 auto 59px 89px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.featuredbooks .title h1 {
+  font-family: 'Cairo';
+  font-size: 50px;
+  line-height: 94px;
+  color: #11142D;
+  padding: auto;
+}
+
+.featuredbooks .title p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 22px;
+  color: #11142D;
+  margin-top: 4px;
+}
+
+.featuredbooks .featured {
+  width: 600px;
+  height: 450px;
+  margin: 50px 77px 89px 76px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 33px rgba 108, 93, 211, 0.25;
+  border-radius: 14px;
+  display: flex;
+}
+
+.featuredbooks .featured .image {
+  height: 350px;
+  width: 200px;
+  margin: auto 35px;
+  background: #C4C4C4;
+  border-radius: 20px;
+}
+
+.featuredbooks .featured .imageinfo {
+  width: 250px;
+  height: 350px;
+  display: block;
+}
+
+.featuredbooks .featured .imageinfo .header {
+  width: 200px;
+  margin-top: 30px;
+  display: block;
+}
+
+.featuredbooks .featured .imageinfo .header .fa-bookmark {
+  color: #6C5DD3;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.featuredbooks .featured .imageinfo .header .fa-star {
+  position: absolute;
+  background-color: #FF754C;
+  color: #FFFFFF;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 20px auto 25px 33px;
+  border-radius: 50%;
+}
+
+.featuredbooks .featured .imageinfo .header h1 {
+  font-size: 30px;
+  line-height: 56px;
+  color: #11142D;
+  margin-left: 70px;
+  width: 169px;
+}
+
+.featuredbooks .featured .imageinfo .header p {
+  font-size: 16px;
+  line-height: 56px;
+  color: #11142D;
+  margin: -24px 0 20px 71px;
+}
+
+.featuredbooks .featured .imageinfo h4 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #11142D;
+}
+
+.featuredbooks .featured .imageinfo p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #11142D;
+}
+
+.featuredbooks .featured .imageinfo .author {
+  width: 180px;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+}
+
+.featuredbooks .featured .imageinfo .author span {
+  display: block;
+}
+
+.featuredbooks .featured .imageinfo .author h5 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 19px;
+  color: #AAAAAA;
+}
+
+.featuredbooks .featured .imageinfo .author h4 {
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: #11142D;
+}
+
+.featuredbooks .featured .imageinfo .price {
+  width: 250px;
+  height: 55px;
+  display: flex;
+}
+
+.featuredbooks .featured .imageinfo .price .amount {
+  width: 150px;
+  height: 55px;
+  margin: auto;
+}
+
+.featuredbooks .featured .imageinfo .price .amount h4 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 52px;
+  color: #11142D;
+}
+
+.featuredbooks .featured .imageinfo .price .amount h5 {
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #AAAAAA;
+}
+
+.featuredbooks .featured .imageinfo .price button {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6C5DD3;
+  border-radius: 14px;
+  color: #FFFFFF;
+}
+
+.featuredbooks .books {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  gap: 20px;
+  overflow-wrap: normal;
+}
+
+.featuredbooks .books .book {
+  width: 100px;
+  height: 200px;
+  background-color: #AAAAAA;
 }
