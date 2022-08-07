@@ -781,6 +781,7 @@ main{
     margin-top: 118px;
     height: 800px;
     background: #f2f0fe;
+    display: flex;
     .title{
         width: 400px;
         height: 140px;
@@ -803,28 +804,31 @@ main{
         }
     }
     .featured{
-        width: 600px;
+        width: 650px;
         height: 450px;
-        margin: 50px 77px 89px 76px;
+        margin: 280px 77px 89px 76px;
         background: #FFFFFF;
         box-shadow: 0px 25px 33px rgba        (108, 93, 211, 0.25);
         border-radius: 14px;
         display: flex;
+        position: absolute;
         .image{
-            height:350px ;
-            width:200px;
+            height:404px ;
+            width:220px;
             margin:  auto 35px;
             background: #C4C4C4;
             border-radius: 20px;
         }
         .imageinfo{
-           width: 250px;
+           width: 310px;
            height: 350px;
            display: block;
            .header{
             width: 200px;
             margin-top: 30px;
-            display: block;            .fa-bookmark{
+            display: block;     
+            height: 100px;       
+            .fa-bookmark{
             color: #6C5DD3;
             position: absolute;
            width: 50px;
@@ -852,27 +856,33 @@ main{
         p{
             font-size: 16px;
             line-height: 56px;
-            color: #11142D;
+            color: #6C5DD3;
             margin: -24px 0 20px 71px;
         }
            }
            h4{
+            font-family: 'Open Sans';
             font-size: 18px;
             line-height: 24px;
             color: #11142D;
+            margin-bottom: 15px;
            }
            p{
+            font-family: 'Open Sans';
            font-size: 14px; 
            line-height: 20px;
            color: #11142D;
+           width: 310px;
+           margin-bottom: 20px;
            }
            .author{
-            width: 180px;
-            height: 70px;
+            width: 220px;
+            height: 42px;
             display: flex;
-            gap: 20px;
+            justify-content: space-between;
             span{
                 display: block;
+                gap: 50px;
             }
             h5{
                 font-family: 'Open Sans';
@@ -888,18 +898,23 @@ main{
             }
            }
            .price{
-            width: 250px;
+            width: 300px;
             height: 55px;
             display: flex;
+            justify-content: space-between;
+            margin-top: 28px;
             .amount{
-                width: 150px;
+                width: 169px;
                 height: 55px;
-                margin: auto;
+                display:flex;
+                align-items: center;
+                gap: 20px;
                 h4{
                     font-weight: bold;
                     font-size: 28px;
                     line-height: 52px;
                     color: #11142D;
+                    padding-top: 10px;
                 }
                 h5{
                     font-size: 20px;
@@ -917,21 +932,32 @@ main{
               background: #6C5DD3;
               border-radius: 14px;
               color: #FFFFFF;
+              border: none;
+              font-weight: bold;
+              gap: 10px;
             }
            }
         }
     }
     .books{
-        width: 600px;
+        width: 500px;
         height: 400px;
-        display: flex;
-        gap: 20px;
+        gap: 40px;
         overflow-wrap: normal;
+        float: right;
+        display: block;
+        margin-right: 150px;
         .book{
-            width: 
-           100px ;
-           height: 200px;
+            width:150px ;
+           height: 300px;
            background-color: #AAAAAA;
+           margin-top: 60px;
+           border-radius: 14px;
         }
+        .books-1, .books-2{
+            display: flex;
+            gap: 30px;
+
+           }
     }
 }

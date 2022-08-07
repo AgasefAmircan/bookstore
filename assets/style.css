@@ -887,6 +887,7 @@ main {
   margin-top: 118px;
   height: 800px;
   background: #f2f0fe;
+  display: flex;
 }
 
 .featuredbooks .title {
@@ -914,25 +915,26 @@ main {
 }
 
 .featuredbooks .featured {
-  width: 600px;
+  width: 650px;
   height: 450px;
-  margin: 50px 77px 89px 76px;
+  margin: 280px 77px 89px 76px;
   background: #FFFFFF;
   box-shadow: 0px 25px 33px rgba 108, 93, 211, 0.25;
   border-radius: 14px;
   display: flex;
+  position: absolute;
 }
 
 .featuredbooks .featured .image {
-  height: 350px;
-  width: 200px;
+  height: 404px;
+  width: 220px;
   margin: auto 35px;
   background: #C4C4C4;
   border-radius: 20px;
 }
 
 .featuredbooks .featured .imageinfo {
-  width: 250px;
+  width: 310px;
   height: 350px;
   display: block;
 }
@@ -941,6 +943,7 @@ main {
   width: 200px;
   margin-top: 30px;
   display: block;
+  height: 100px;
 }
 
 .featuredbooks .featured .imageinfo .header .fa-bookmark {
@@ -973,31 +976,37 @@ main {
 .featuredbooks .featured .imageinfo .header p {
   font-size: 16px;
   line-height: 56px;
-  color: #11142D;
+  color: #6C5DD3;
   margin: -24px 0 20px 71px;
 }
 
 .featuredbooks .featured .imageinfo h4 {
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 24px;
   color: #11142D;
+  margin-bottom: 15px;
 }
 
 .featuredbooks .featured .imageinfo p {
+  font-family: 'Open Sans';
   font-size: 14px;
   line-height: 20px;
   color: #11142D;
+  width: 310px;
+  margin-bottom: 20px;
 }
 
 .featuredbooks .featured .imageinfo .author {
-  width: 180px;
-  height: 70px;
+  width: 220px;
+  height: 42px;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .featuredbooks .featured .imageinfo .author span {
   display: block;
+  gap: 50px;
 }
 
 .featuredbooks .featured .imageinfo .author h5 {
@@ -1015,15 +1024,19 @@ main {
 }
 
 .featuredbooks .featured .imageinfo .price {
-  width: 250px;
+  width: 300px;
   height: 55px;
   display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
 }
 
 .featuredbooks .featured .imageinfo .price .amount {
-  width: 150px;
+  width: 169px;
   height: 55px;
-  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .featuredbooks .featured .imageinfo .price .amount h4 {
@@ -1031,6 +1044,7 @@ main {
   font-size: 28px;
   line-height: 52px;
   color: #11142D;
+  padding-top: 10px;
 }
 
 .featuredbooks .featured .imageinfo .price .amount h5 {
@@ -1048,18 +1062,30 @@ main {
   background: #6C5DD3;
   border-radius: 14px;
   color: #FFFFFF;
+  border: none;
+  font-weight: bold;
+  gap: 10px;
 }
 
 .featuredbooks .books {
-  width: 600px;
+  width: 500px;
   height: 400px;
-  display: flex;
-  gap: 20px;
+  gap: 40px;
   overflow-wrap: normal;
+  float: right;
+  display: block;
+  margin-right: 150px;
 }
 
 .featuredbooks .books .book {
-  width: 100px;
-  height: 200px;
+  width: 150px;
+  height: 300px;
   background-color: #AAAAAA;
+  margin-top: 60px;
+  border-radius: 14px;
+}
+
+.featuredbooks .books .books-1, .featuredbooks .books .books-2 {
+  display: flex;
+  gap: 30px;
 }
